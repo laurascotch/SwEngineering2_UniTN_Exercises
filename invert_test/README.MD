@@ -18,8 +18,8 @@ Quindi si aggiungono le seguenti righe al file `package.json`:
 
 Infine si esegue il test con il comando `npm run test`
 
-```
 Esempio di console log in seguito al test:
+```
 PASS ./k_invert.test.js
   v sposta tutto l'array (29ms)
   v non spostare nulla (4ms)
