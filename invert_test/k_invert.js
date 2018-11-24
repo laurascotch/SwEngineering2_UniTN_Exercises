@@ -12,6 +12,9 @@ function k_invert(a, k){
 
     var c = b.concat(a);
 
+    console.log(c);
     return c;
 
 }
+
+module.exports = k_invert;
