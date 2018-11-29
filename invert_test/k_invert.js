@@ -1,5 +1,7 @@
 function k_invert(a, k){
     
+    if(arguments.length!=2) return null;
+
     if(!(Array.isArray(a))) return null;
 
     if(k<0) return null;
