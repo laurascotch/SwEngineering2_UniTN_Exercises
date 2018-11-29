@@ -1,5 +1,5 @@
 ## Files
-k_invert.js � una funzione che presi in input un array di interi positivi e un intero k positivo, sposta gli ultimi k elementi dell'array in testa allo stesso. 
+k_invert.js è una funzione che presi in input un array di interi positivi e un intero k positivo, sposta gli ultimi k elementi dell'array in testa allo stesso. 
 
 k_invert.test.js sono i test case per jest.
 
@@ -20,24 +20,25 @@ Infine si esegue il test con il comando `npm run test`
 
 Esempio di console log in seguito al test:
 ```
-PASS ./k_invert.test.js
-  v sposta tutto l'array (29ms)
-  v non spostare nulla (4ms)
-  v spostane 3 (2ms)
-  v cerca di spostarne troppi
-  v l'array non � di soli interi positivi (1ms)
-  v l'array non � di soli interi positivi
-  v k non � un intero positivo (1ms)
-
-  console.log k_invert.js:15
-    [ 1, 3, 2, 6, 22 ]
-
-  console.log k_invert.js:15
-    [ 2, 6, 22, 1, 3 ]
+ PASS  ./k_invert.test.js
+  √ troppi parametri (6ms)
+  √ troppo pochi parametri
+  √ sposta tutto l'array (1ms)
+  √ non spostare nulla (1ms)
+  √ spostane 3
+  √ cerca di spostarne troppi
+  √ cerca di spostarne troppi (1ms)
+  √ l'array non è di soli interi positivi
+  √ l'array non è di soli interi positivi
+  √ k non è un intero positivo (1ms)
+  √ l'array ha almeno un non numero
+  √ l'array non è composto di soli interi
+  √ l'array non è un array (1ms)
+  √ l'array è vuoto
 
 Test Suites: 1 passed, 1 total
-Tests:       7 passed, 7 total
+Tests:       14 passed, 14 total
 Snapshots:   0 total
-Time:        2.275s
+Time:        15.181s
 Ran all test suites.
 ```
